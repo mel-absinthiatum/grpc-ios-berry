@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		606AEB49242CA4FF00C75EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606AEB48242CA4FF00C75EEA /* AppDelegate.swift */; };
+		606AEB4B242CA4FF00C75EEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606AEB4A242CA4FF00C75EEA /* SceneDelegate.swift */; };
+		606AEB4D242CA4FF00C75EEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606AEB4C242CA4FF00C75EEA /* ViewController.swift */; };
+		606AEB50242CA4FF00C75EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606AEB4E242CA4FF00C75EEA /* Main.storyboard */; };
+		606AEB52242CA50200C75EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606AEB51242CA50200C75EEA /* Assets.xcassets */; };
+		606AEB55242CA50200C75EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606AEB53242CA50200C75EEA /* LaunchScreen.storyboard */; };
+		606AEB60242CA50300C75EEA /* grpc_ios_berryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606AEB5F242CA50300C75EEA /* grpc_ios_berryTests.swift */; };
+		606AEB6B242CA50300C75EEA /* grpc_ios_berryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606AEB6A242CA50300C75EEA /* grpc_ios_berryUITests.swift */; };
+		606AEB7A242CB55000C75EEA /* GRPC-Client.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 606AEB79242CB55000C75EEA /* GRPC-Client.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		606AEB5C242CA50300C75EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606AEB3D242CA4FF00C75EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606AEB44242CA4FF00C75EEA;
+			remoteInfo = "grpc-ios-berry";
+		};
+		606AEB67242CA50300C75EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606AEB3D242CA4FF00C75EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606AEB44242CA4FF00C75EEA;
+			remoteInfo = "grpc-ios-berry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		606AEB45242CA4FF00C75EEA /* grpc-ios-berry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "grpc-ios-berry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		606AEB48242CA4FF00C75EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		606AEB4A242CA4FF00C75EEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		606AEB4C242CA4FF00C75EEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		606AEB4F242CA4FF00C75EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		606AEB51242CA50200C75EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		606AEB54242CA50200C75EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		606AEB56242CA50200C75EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606AEB5B242CA50300C75EEA /* grpc-ios-berryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "grpc-ios-berryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		606AEB5F242CA50300C75EEA /* grpc_ios_berryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grpc_ios_berryTests.swift; sourceTree = "<group>"; };
+		606AEB61242CA50300C75EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606AEB66242CA50300C75EEA /* grpc-ios-berryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "grpc-ios-berryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		606AEB6A242CA50300C75EEA /* grpc_ios_berryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grpc_ios_berryUITests.swift; sourceTree = "<group>"; };
+		606AEB6C242CA50300C75EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606AEB79242CB55000C75EEA /* GRPC-Client.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GRPC-Client.podspec"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		606AEB42242CA4FF00C75EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606AEB58242CA50300C75EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606AEB63242CA50300C75EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		606AEB3C242CA4FF00C75EEA = {
+			isa = PBXGroup;
+			children = (
+				606AEB78242CAF7E00C75EEA /* grpc-client */,
+				606AEB47242CA4FF00C75EEA /* grpc-ios-berry */,
+				606AEB5E242CA50300C75EEA /* grpc-ios-berryTests */,
+				606AEB69242CA50300C75EEA /* grpc-ios-berryUITests */,
+				606AEB46242CA4FF00C75EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		606AEB46242CA4FF00C75EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				606AEB45242CA4FF00C75EEA /* grpc-ios-berry.app */,
+				606AEB5B242CA50300C75EEA /* grpc-ios-berryTests.xctest */,
+				606AEB66242CA50300C75EEA /* grpc-ios-berryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		606AEB47242CA4FF00C75EEA /* grpc-ios-berry */ = {
+			isa = PBXGroup;
+			children = (
+				606AEB48242CA4FF00C75EEA /* AppDelegate.swift */,
+				606AEB4A242CA4FF00C75EEA /* SceneDelegate.swift */,
+				606AEB4C242CA4FF00C75EEA /* ViewController.swift */,
+				606AEB4E242CA4FF00C75EEA /* Main.storyboard */,
+				606AEB51242CA50200C75EEA /* Assets.xcassets */,
+				606AEB53242CA50200C75EEA /* LaunchScreen.storyboard */,
+				606AEB56242CA50200C75EEA /* Info.plist */,
+			);
+			path = "grpc-ios-berry";
+			sourceTree = "<group>";
+		};
+		606AEB5E242CA50300C75EEA /* grpc-ios-berryTests */ = {
+			isa = PBXGroup;
+			children = (
+				606AEB5F242CA50300C75EEA /* grpc_ios_berryTests.swift */,
+				606AEB61242CA50300C75EEA /* Info.plist */,
+			);
+			path = "grpc-ios-berryTests";
+			sourceTree = "<group>";
+		};
+		606AEB69242CA50300C75EEA /* grpc-ios-berryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				606AEB6A242CA50300C75EEA /* grpc_ios_berryUITests.swift */,
+				606AEB6C242CA50300C75EEA /* Info.plist */,
+			);
+			path = "grpc-ios-berryUITests";
+			sourceTree = "<group>";
+		};
+		606AEB78242CAF7E00C75EEA /* grpc-client */ = {
+			isa = PBXGroup;
+			children = (
+				606AEB79242CB55000C75EEA /* GRPC-Client.podspec */,
+			);
+			path = "grpc-client";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		606AEB44242CA4FF00C75EEA /* grpc-ios-berry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606AEB6F242CA50300C75EEA /* Build configuration list for PBXNativeTarget "grpc-ios-berry" */;
+			buildPhases = (
+				606AEB41242CA4FF00C75EEA /* Sources */,
+				606AEB42242CA4FF00C75EEA /* Frameworks */,
+				606AEB43242CA4FF00C75EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "grpc-ios-berry";
+			productName = "grpc-ios-berry";
+			productReference = 606AEB45242CA4FF00C75EEA /* grpc-ios-berry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		606AEB5A242CA50300C75EEA /* grpc-ios-berryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606AEB72242CA50300C75EEA /* Build configuration list for PBXNativeTarget "grpc-ios-berryTests" */;
+			buildPhases = (
+				606AEB57242CA50300C75EEA /* Sources */,
+				606AEB58242CA50300C75EEA /* Frameworks */,
+				606AEB59242CA50300C75EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				606AEB5D242CA50300C75EEA /* PBXTargetDependency */,
+			);
+			name = "grpc-ios-berryTests";
+			productName = "grpc-ios-berryTests";
+			productReference = 606AEB5B242CA50300C75EEA /* grpc-ios-berryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		606AEB65242CA50300C75EEA /* grpc-ios-berryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606AEB75242CA50300C75EEA /* Build configuration list for PBXNativeTarget "grpc-ios-berryUITests" */;
+			buildPhases = (
+				606AEB62242CA50300C75EEA /* Sources */,
+				606AEB63242CA50300C75EEA /* Frameworks */,
+				606AEB64242CA50300C75EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				606AEB68242CA50300C75EEA /* PBXTargetDependency */,
+			);
+			name = "grpc-ios-berryUITests";
+			productName = "grpc-ios-berryUITests";
+			productReference = 606AEB66242CA50300C75EEA /* grpc-ios-berryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		606AEB3D242CA4FF00C75EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mel Absinthiatum";
+				TargetAttributes = {
+					606AEB44242CA4FF00C75EEA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					606AEB5A242CA50300C75EEA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 606AEB44242CA4FF00C75EEA;
+					};
+					606AEB65242CA50300C75EEA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 606AEB44242CA4FF00C75EEA;
+					};
+				};
+			};
+			buildConfigurationList = 606AEB40242CA4FF00C75EEA /* Build configuration list for PBXProject "grpc-ios-berry" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 606AEB3C242CA4FF00C75EEA;
+			productRefGroup = 606AEB46242CA4FF00C75EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				606AEB44242CA4FF00C75EEA /* grpc-ios-berry */,
+				606AEB5A242CA50300C75EEA /* grpc-ios-berryTests */,
+				606AEB65242CA50300C75EEA /* grpc-ios-berryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		606AEB43242CA4FF00C75EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606AEB55242CA50200C75EEA /* LaunchScreen.storyboard in Resources */,
+				606AEB52242CA50200C75EEA /* Assets.xcassets in Resources */,
+				606AEB50242CA4FF00C75EEA /* Main.storyboard in Resources */,
+				606AEB7A242CB55000C75EEA /* GRPC-Client.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606AEB59242CA50300C75EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606AEB64242CA50300C75EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606AEB41242CA4FF00C75EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606AEB4D242CA4FF00C75EEA /* ViewController.swift in Sources */,
+				606AEB49242CA4FF00C75EEA /* AppDelegate.swift in Sources */,
+				606AEB4B242CA4FF00C75EEA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606AEB57242CA50300C75EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606AEB60242CA50300C75EEA /* grpc_ios_berryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606AEB62242CA50300C75EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606AEB6B242CA50300C75EEA /* grpc_ios_berryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		606AEB5D242CA50300C75EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606AEB44242CA4FF00C75EEA /* grpc-ios-berry */;
+			targetProxy = 606AEB5C242CA50300C75EEA /* PBXContainerItemProxy */;
+		};
+		606AEB68242CA50300C75EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606AEB44242CA4FF00C75EEA /* grpc-ios-berry */;
+			targetProxy = 606AEB67242CA50300C75EEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		606AEB4E242CA4FF00C75EEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606AEB4F242CA4FF00C75EEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		606AEB53242CA50200C75EEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606AEB54242CA50200C75EEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		606AEB6D242CA50300C75EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		606AEB6E242CA50300C75EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		606AEB70242CA50300C75EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grpc-ios-berry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mel-absinthiatum.grpc-ios-berry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		606AEB71242CA50300C75EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grpc-ios-berry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mel-absinthiatum.grpc-ios-berry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		606AEB73242CA50300C75EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grpc-ios-berryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mel-absinthiatum.grpc-ios-berryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grpc-ios-berry.app/grpc-ios-berry";
+			};
+			name = Debug;
+		};
+		606AEB74242CA50300C75EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grpc-ios-berryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mel-absinthiatum.grpc-ios-berryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grpc-ios-berry.app/grpc-ios-berry";
+			};
+			name = Release;
+		};
+		606AEB76242CA50300C75EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grpc-ios-berryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mel-absinthiatum.grpc-ios-berryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "grpc-ios-berry";
+			};
+			name = Debug;
+		};
+		606AEB77242CA50300C75EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grpc-ios-berryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mel-absinthiatum.grpc-ios-berryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "grpc-ios-berry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		606AEB40242CA4FF00C75EEA /* Build configuration list for PBXProject "grpc-ios-berry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606AEB6D242CA50300C75EEA /* Debug */,
+				606AEB6E242CA50300C75EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606AEB6F242CA50300C75EEA /* Build configuration list for PBXNativeTarget "grpc-ios-berry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606AEB70242CA50300C75EEA /* Debug */,
+				606AEB71242CA50300C75EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606AEB72242CA50300C75EEA /* Build configuration list for PBXNativeTarget "grpc-ios-berryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606AEB73242CA50300C75EEA /* Debug */,
+				606AEB74242CA50300C75EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606AEB75242CA50300C75EEA /* Build configuration list for PBXNativeTarget "grpc-ios-berryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606AEB76242CA50300C75EEA /* Debug */,
+				606AEB77242CA50300C75EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 606AEB3D242CA4FF00C75EEA /* Project object */;
+}
