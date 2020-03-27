@@ -1,18 +1,19 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '11.0'
+use_frameworks!
+target 'grpc-ios-berry' do
 
-target 'GrpcMobileDemo' do
-  use_frameworks!
+  pod 'BerryGrpcClient', path: './BerryGrpcClient'
 
-  # Pods for GrpcMobileDemo
-  pod 'GRPC-Client', path: './grpc-client'
+  pod 'SwiftyJSON', '~> 4.0'
 
-  target 'GrpcMobileDemoTests' do
-    inherit! :search_paths
+  pod 'Alamofire', '~> 5.0'
+
+
+  target 'grpc-ios-berryTests' do
+   # inherit! :search_paths
   end
 
-  target 'GrpcMobileDemoUITests' do
-    inherit! :search_paths
+  target 'grpc-ios-berryUITests' do
   end
 
 end

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+option objc_class_prefix = "BRR";
+
+package greenberry;
+
+service Greenberry {
+  rpc call (GreenberryRequest) returns (GreenberryReply) {}
+}
+
+message GreenberryRequest {
+  string name = 1;
+}
+
+message GreenberryReply {
+  string message = 1;
+}

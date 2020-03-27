@@ -7,14 +7,35 @@
 //
 
 import UIKit
+import Alamofire
+import BerryGrpcClient
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-
+    @IBAction func greenberryDidTap(_ sender: UIButton) {
+        let greenberry = BRRGreenberryRequest()
+        greenberry.name = "name"
+        
+        guard let data = greenberry.data() else {
+            print("serialization error")
+            return
+        }
+        
+        do {
+            let regreenberry = try BRRGreenberryRequest(data: data)
+            if regreenberry.name == "name" {
+                print("done")
+            }
+        }
+        catch {
+            print("deserializaation error")
+            return
+        }
+    }
 }
 
